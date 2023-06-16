@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gestió de Cookies</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>Gestió de Cookies</h1>
+    <h2>Crear Cookie</h2>
+    <form id="cookieForm">
+        <label for="nom">Nom:</label><br>
+        <input type="text" id="nom" name="nom"><br>
+        <label for="valor">Valor:</label><br>
+        <input type="text" id="valor" name="valor"><br>
+        <label for="expiracio">Data d'Expiració:</label><br>
+        <input type="datetime-local" id="expiracio" name="expiracio"><br>
+        <input type="submit" value="Crear Cookie">
+    </form>
+
+    <h2>Gestionar Cookies</h2>
+    <div id="cookiesContainer"></div>
+</body>
+</html>
