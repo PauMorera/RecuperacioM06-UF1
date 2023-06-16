@@ -22,3 +22,15 @@ function refreshCookies() {
       displayCookie(cookie[0], cookie[1]);
   }
 }
+
+function displayCookie(nom, valor) {
+  var cookiesContainer = document.getElementById('cookiesContainer');
+  cookiesContainer.innerHTML += `
+      <div>
+          <h3>${nom}</h3>
+          Valor: ${valor} 
+          <button onclick="modifyCookie('${nom}')">Modificar</button> 
+          <button onclick="deleteCookie('${nom}')">Eliminar</button>
+      </div>
+  `;
+}
