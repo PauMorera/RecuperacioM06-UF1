@@ -34,3 +34,7 @@ function displayCookie(nom, valor) {
       </div>
   `;
 }
+window.deleteCookie = function(nom) {
+  document.cookie = nom + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+  refreshCookies();
+}
