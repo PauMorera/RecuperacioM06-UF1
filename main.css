@@ -1,0 +1,83 @@
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #445565;
+}
+
+form {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: .5rem;
+  color: #445565;
+}
+
+form input[type="text"],
+form input[type="datetime-local"] {
+  width: 100%;
+  padding: .5rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+form input[type="submit"] {
+  color: #fff;
+  background-color: #445565;
+  border: none;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+margin-left: 12rem;
+  
+}
+
+#cookiesContainer {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.1);
+}
+
+#cookiesContainer div {
+  margin: 1rem 0;
+  border: 1px solid #ddd;
+  padding: .5rem;
+  border-radius: 5px;
+}
+
+#cookiesContainer div h3 {
+  margin-top: 0;
+  color: #445565;
+}
+
+#cookiesContainer div button {
+  color: #fff;
+  background-color: #f05f40;
+  border: none;
+  padding: .3rem .6rem;
+  margin-left: .5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#cookiesContainer div button:first-of-type {
+  background-color: #f9ca24;
+}
